@@ -4,7 +4,6 @@ html {
 }
 
 body {
-  background: #fff;
   font-size: 14px;
   font-weight: 400;
   font-family: 'Open Sans', sans-serif;
@@ -18,6 +17,38 @@ body {
   backface-visibility: hidden;
   overflow-x: hidden;
 }
+
+.display-4 {
+  background-color: white;
+  color: black !important;
+  font-family: 'Arvo';
+}
+
+.lead {
+  background-color: white;
+  color: black !important;
+  font-family: 'Arvo';
+}
+
+.banner {
+  background-image: url('/Users/olehar/Documents/WebDevelopment/cv/assets/img/background.jpg');
+  background-size: cover;
+  height: 600px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 32px;
+
+}
+
+  .banner > p {
+    color: white;
+    padding: 10px;
+  }
+
+
 
 h1, h2, h3 {
   font-size: 38px;
@@ -33,6 +64,14 @@ h4 {
   font-weight: 200;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
+}
+
+a[href^="mailto:"] {
+  font-weight: 400;
+font-family: 'Open Sans', sans-serif;
+margin: 0px;
+font-size: 14px !important;
+color: #abacae;
 }
 
 a {
@@ -57,6 +96,8 @@ p {
   margin: 0px;
   font-size: 14px;
 }
+
+
 
 ul, ol {
   list-style: outside none none;
@@ -332,7 +373,8 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .section-padding {
-  padding: 0px 0;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 hr {
@@ -555,7 +597,7 @@ hr {
 }
 
 .fixed-top {
-  background: rgba(255, 255, 255, 0.8); 
+  background: rgba(255, 255, 255, 1); 
 }
 
 .navbar-brand {
