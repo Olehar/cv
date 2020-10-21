@@ -21,14 +21,14 @@ body {
 .display-4 {
   background-color: white;
   color: black !important;
-  font-family: 'Arvo';
+  font-family: 'Arvo', serif;
   font-size: 3rem;
 }
 
 .lead {
   background-color: white;
   color: black !important;
-  font-family: 'Arvo';
+  font-family: 'Arvo', serif;
 }
 
 .banner {
@@ -108,14 +108,6 @@ ul, ol {
 
 }
 
-ul li, ol li {
-
-}
-/*
-a:not([href]):not([tabindex]) {
-  color: #fff;
-}
-*/
 
 .section-header {
   margin-bottom: 30px;
