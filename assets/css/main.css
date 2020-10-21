@@ -35,7 +35,7 @@ body {
 }
 
 .banner {
-  background-image: url('/Users/olehar/Documents/WebDevelopment/cv/assets/img/background.jpg');
+  background-image: url('cv/assets/img/background.jpg');
   background-size: cover;
   height: 800px;
   width: 100%;
