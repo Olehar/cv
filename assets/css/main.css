@@ -35,7 +35,7 @@ body {
 }
 
 .banner {
-  background-image: url("/cv/assets/img/background.jpg");
+  background-image: url('/Users/olehar/Documents/WebDevelopment/cv/assets/img/background.jpg');
   background-size: cover;
   height: 800px;
   width: 100%;
@@ -503,7 +503,7 @@ hr {
 }
 
 .services-item .icon {
-  border: 1px solid #f1f1f1;
+  border: 0px solid #f1f1f1;
   width: 200px;
   height: 200px;
   border-radius: 50%;
