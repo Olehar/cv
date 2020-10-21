@@ -22,13 +22,16 @@ body {
   background-color: white;
   color: black !important;
   font-family: 'Arvo', serif;
-  font-size: 3rem;
+  font-size: 3vw;
+  font-size: 6vh;
 }
 
 .lead {
   background-color: white;
   color: black !important;
   font-family: 'Arvo', serif;
+  font-size: 1vw;
+  font-size: 4vh;
 }
 
 .banner {
